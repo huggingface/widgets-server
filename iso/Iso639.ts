@@ -4,13 +4,6 @@
 ///
 
 
-/**
- * Works with (all?) parts of ISO 639.
- */
-export const wikiLink = (code: string) => {
-	return `https://en.wikipedia.org/wiki/ISO_639:${code}`;
-}
-
 
 export const MAPPING_ISO_639_1 = {
 	aa: {
@@ -758,7 +751,7 @@ export const MAPPING_ISO_639_1 = {
 /// https://github.com/fabulator/iso-639-2-english
 ///
 
-const MAPPING_ISO_639_2: Record<string, Record<string, string>> = {
+const MAPPING_ISO_639_2_BY_TYPE: Record<string, Record<string, string>> = {
 	ancient: {
 		akk: 'Akkadian',
 		arc: 'Official Aramaic',
@@ -1298,10 +1291,12 @@ const MAPPING_ISO_639_2: Record<string, Record<string, string>> = {
 };
 
 
-export const MAPPING_ISO_2_FLAT = () => {
+export const MAPPING_ISO_639_2 = (() => {
 	const o: Record<string, string> = {};
-	for (const x of Object.values(MAPPING_ISO_639_2)) {
+	for (const x of Object.values(MAPPING_ISO_639_2_BY_TYPE)) {
 		Object.assign(o, x);
 	}
 	return o;
-}
+})();
+
+

@@ -1,7 +1,7 @@
 /// https://en.wikipedia.org/wiki/List_of_Wikipedias
 ///
 
-import { MAPPING_ISO_639_1, MAPPING_ISO_2_FLAT } from './Iso639';
+import { MAPPING_ISO_639_1, MAPPING_ISO_639_2 } from './Iso639';
 import { union, difference } from '../utils';
 
 /**
@@ -316,7 +316,7 @@ export const NOT_ISO = (include_iso_2 = false) => {
 	const isos = include_iso_2
 		? union(
 			new Set(Object.keys(MAPPING_ISO_639_1)),
-			new Set(Object.keys(MAPPING_ISO_2_FLAT()))
+			new Set(Object.keys(MAPPING_ISO_639_2))
 		)
 		: new Set(Object.keys(MAPPING_ISO_639_1))
 	;
