@@ -1,5 +1,5 @@
 import { MAPPING_CROSS_ISO } from './iso/Iso639-3166-mapping';
-import { flagEmoji } from './iso/Iso3166';
+import { MAPPING_ISO_3166, flagEmoji } from './iso/Iso3166';
 import { MAPPING_ISO_639_1, MAPPING_ISO_639_2 } from './iso/Iso639';
 import { MAPPING_ISO_639_3 } from './iso/iso-639-3';
 
@@ -23,18 +23,27 @@ export class Language {
 		return `https://en.wikipedia.org/wiki/ISO_639:${this.code}`;
 	}
 	/**
-	 * Return tuple with emoji and country code.
+	 * Return obj with emoji and description of country.
 	 */
-	get flagEmoji(): [string, string] | undefined {
+	get flagEmoji(): {
+		flag: string;
+		descr: string;
+	} | undefined {
 		/// Overrides or missing codes:
 		switch (this.code) {
 			case 'ar':
-				return [ `🟢 ض`, 'AA' ];
+				return {
+					flag: `🟢 ض`,
+					descr: 'AA',
+				};
 		}
 		
 		const x = MAPPING_CROSS_ISO[this.code];
 		if (typeof x === "string") {
-			return [ flagEmoji(x), x ];
+			return {
+				flag: flagEmoji(x),
+				descr: `${x} – ${MAPPING_ISO_3166[x] ?? ""}`,
+			};
 		}
 	}
 	

@@ -120,7 +120,6 @@ export const MAPPING_CROSS_ISO: Record<string, string | {
 	"pl": "PL",
 	"pt": "PT",
 	"pa": "IN",
-	"qu": "WH",
 	"ro": "RO",
 	"rm": "CH",
 	"rn": "BI",
