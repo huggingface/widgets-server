@@ -511,7 +511,7 @@ export const MAPPING_ISO_639_1 = {
 		nativeName: 'ирон æвзаг',
 	},
 	pa: {
-		name: 'Panjabi',
+		name: 'Punjabi',
 		nativeName: 'ਪੰਜਾਬੀ',
 	},
 	pi: {
