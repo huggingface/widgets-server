@@ -235,7 +235,7 @@ const MAPPING_IT: PerLanguageMapping = new Map([
 		`Mi chiamo Sarah e vivo a Londra`,
 	] ],
 	[ "summarization", [
-		`La torre è alta 324 metri (1.063 piedi), circa la stessa altezza di un edificio di 81 piani ed è la struttura più alta di Parigi. La sua base è quadrata, misura 125 metri (410 piedi) su ciascun lato. Durante la sua costruzione, la Torre Eiffel ha superato il monumento a Washington diventando la struttura costruita dall'uomo più alta del mondo, un titolo che ha detenuto per 41 anni fino a quando il Chrysler Building di New York City fu terminato nel 1930. Fu la prima struttura a raggiungere un'altezza di 300 metri. A causa dell'aggiunta di un'antenna di trasmissione nella parte superiore della torre nel 1957, ora è più alta dell'edificio Chrysler di 5,2 metri (17 piedi). Escludendo i trasmettitori, la Torre Eiffel è la seconda struttura auto-portante più alta in Francia dopo il viadotto di Millau.`,
+		`La torre degli Asinelli è una delle cosiddette due torri di Bologna, simbolo della città, situate in piazza di porta Ravegnana, all'incrocio tra le antiche strade San Donato (ora via Zamboni), San Vitale, Maggiore e Castiglione. Eretta, secondo la tradizione, fra il 1109 e il 1119 dal nobile Gherardo Asinelli, la torre è alta 97,20 metri, pende verso ovest per 2,23 metri e presenta all'interno una scalinata composta da 498 gradini. Ancora non si può dire con certezza quando e da chi fu costruita la torre degli Asinelli. Si presume che la torre debba il proprio nome a Gherardo Asinelli, il nobile cavaliere di fazione ghibellina al quale se ne attribuisce la costruzione, iniziata secondo una consolidata tradizione l'11 ottobre 1109 e terminata dieci anni dopo, nel 1119.`,
 	] ],
 	[ "text-generation", [
 		`Mi chiamo Julien e mi piace `,
@@ -245,8 +245,8 @@ const MAPPING_IT: PerLanguageMapping = new Map([
 		`C'era una volta `,
 	] ],
 	[ "fill-mask", [
-		`Parigi è la <mask> della Francia.`,
-		`L'obiettivo della vita è <mask>.`,
+		`Roma è la <mask> d'Italia.`,
+		`Lo scopo della vita è <mask>.`,
 	] ],
 ]);
 
