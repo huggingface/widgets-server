@@ -238,7 +238,7 @@ const MAPPING_IT: PerLanguageMapping = new Map([
 		`La torre è alta 324 metri (1.063 piedi), circa la stessa altezza di un edificio di 81 piani ed è la struttura più alta di Parigi. La sua base è quadrata, misura 125 metri (410 piedi) su ciascun lato. Durante la sua costruzione, la Torre Eiffel ha superato il monumento a Washington diventando la struttura costruita dall'uomo più alta del mondo, un titolo che ha detenuto per 41 anni fino a quando il Chrysler Building di New York City fu terminato nel 1930. Fu la prima struttura a raggiungere un'altezza di 300 metri. A causa dell'aggiunta di un'antenna di trasmissione nella parte superiore della torre nel 1957, ora è più alta dell'edificio Chrysler di 5,2 metri (17 piedi). Escludendo i trasmettitori, la Torre Eiffel è la seconda struttura auto-portante più alta in Francia dopo il viadotto di Millau.`,
 	] ],
 	[ "text-generation", [
-		`Mi chiamo Julien e mi piace `,
+		`Mi chiamo Loreto e mi piace `,
 		`Mi chiamo Thomas e il mio principale `,
 		`Mi chiamo Marianna, la mia cosa preferita `,
 		`Mi chiamo Clara e sono `,
