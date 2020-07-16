@@ -145,7 +145,7 @@ export const MAPPING_CROSS_ISO: Record<string, string | {
 	"sv": "SE",
 	"tl": "PH",
 	"tg": "TJ",
-	"ta": "LK",
+	"ta": "IN",
 	"te": "IN",
 	"tet": "TL",
 	"th": "TH",
