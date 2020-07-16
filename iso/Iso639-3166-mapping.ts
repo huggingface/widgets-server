@@ -124,6 +124,7 @@ export const MAPPING_CROSS_ISO: Record<string, string | {
 	"rm": "CH",
 	"rn": "BI",
 	"ru": "RU",
+	"sa": "IN",
 	"sg": "CF",
 	"sr": "RS",
 	"srr": "SN",
