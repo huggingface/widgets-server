@@ -284,5 +284,5 @@ export const MAPPING_DEFAULT_WIDGET = new Map<LanguageCode, PerLanguageMapping>(
 	[ "ru", MAPPING_RU ],
 	[ "uk", MAPPING_UK ],
 	[ "it", MAPPING_IT ],
-	[ "fa", MAPPING_FA ]
+	[ "fa", MAPPING_FA ],
 ]);
