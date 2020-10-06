@@ -361,6 +361,48 @@ const MAPPING_BN: PerLanguageMapping = new Map([
 	] ],
 ]);
 	
+const MAPPING_MN: PerLanguageMapping = new Map([
+	[ "text-classification", [
+		`Би чамд хайртай`,
+	] ],
+	[ "token-classification", [
+		`Намайг Дорж гэдэг. Би Улаанбаатарт амьдардаг.`,
+		`Намайг Ганбат гэдэг. Би Увс аймагт төрсөн.`,
+		`Манай улс таван хошуу малтай.`,
+	] ],
+	[ "question-answering", [
+		{
+			text: `Та хаана амьдардаг вэ?`,
+			context: `Намайг Дорж гэдэг. Би Улаанбаатарт амьдардаг.`,
+		},
+		{
+			text: `Таныг хэн гэдэг вэ?`,
+			context: `Намайг Дорж гэдэг. Би Улаанбаатарт амьдардаг.`,
+		},
+		{
+			text: `Миний нэрийг хэн гэдэг вэ?`,
+			context: `Намайг Ганбат гэдэг. Би Увс аймагт төрсөн.`,
+		}
+	] ],
+	[ "translation", [
+		`Намайг Дорж гэдэг. Би Улаанбаатарт амьдардаг.`,
+		`Намайг Ганбат гэдэг. Би Увс аймагт төрсөн.`,
+	] ],
+	[ "summarization", [
+		`Mongolia (/mɒnˈɡoʊliə/ (About this soundlisten), Mongolian: Монгол Улс, transcription: Mongol Uls, Traditional Mongolian: ᠮᠤᠩᠭᠤᠯ ᠤᠯᠤᠰ, transliteration: Mongγol ulus) is a landlocked country in East Asia. Its area is roughly equivalent with the historical territory of Outer Mongolia, and that term is sometimes used to refer to the current state. It is sandwiched between Russia to the north and China to the south, where it neighbours the Inner Mongolia Autonomous Region. Mongolia does not share a border with Kazakhstan, although only 37 kilometres (23 mi) separate them.`,
+	] ],
+	[ "text-generation", [
+		`Намайг Дорж гэдэг. Би`,
+		`Хамгийн сайн дуучин бол`,
+		`Миний дуртай хамтлаг бол`,
+		`Эрт урьдын цагт`,
+	] ],
+	[ "fill-mask", [
+		`Монгол улсын <mask> Улаанбаатар хотоос ярьж байна.`,
+		`Миний амьдралын зорилго бол <mask>.`,
+	] ],
+]);
+	
 export const MAPPING_DEFAULT_WIDGET = new Map<LanguageCode, PerLanguageMapping>([
 	[ "en", MAPPING_EN ],
 	[ "zh", MAPPING_ZH ],
@@ -372,4 +414,5 @@ export const MAPPING_DEFAULT_WIDGET = new Map<LanguageCode, PerLanguageMapping>(
 	[ "fa", MAPPING_FA ],
 	[ "ar", MAPPING_AR ],
 	[ "bn", MAPPING_BN ],
+	[ "mn", MAPPING_MN ],
 ]);
