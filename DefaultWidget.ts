@@ -389,7 +389,7 @@ const MAPPING_MN: PerLanguageMapping = new Map([
 		`Намайг Ганбат гэдэг. Би Увс аймагт төрсөн.`,
 	] ],
 	[ "summarization", [
-		`Mongolia (/mɒnˈɡoʊliə/ (About this soundlisten), Mongolian: Монгол Улс, transcription: Mongol Uls, Traditional Mongolian: ᠮᠤᠩᠭᠤᠯ ᠤᠯᠤᠰ, transliteration: Mongγol ulus) is a landlocked country in East Asia. Its area is roughly equivalent with the historical territory of Outer Mongolia, and that term is sometimes used to refer to the current state. It is sandwiched between Russia to the north and China to the south, where it neighbours the Inner Mongolia Autonomous Region. Mongolia does not share a border with Kazakhstan, although only 37 kilometres (23 mi) separate them.`,
+		`Монгол Улс (1992 оноос хойш) — дорно болон төв Азид оршдог бүрэн эрхт улс. Хойд талаараа Орос, бусад талаараа Хятад улстай хиллэдэг далайд гарцгүй орон. Нийслэл — Улаанбаатар хот. Алтайн нуруунаас Хянган, Соёноос Говь хүрсэн 1 сая 566 мянган км2 уудам нутагтай, дэлхийд нутаг дэвсгэрийн хэмжээгээр 19-рт жагсдаг. 2015 оны эхэнд Монгол Улсын хүн ам 3 сая хүрсэн (135-р олон). Үндсэндээ монгол үндэстэн (95 хувь), мөн хасаг, тува хүн байна. 16-р зуунаас хойш буддын шашин, 20-р зуунаас шашингүй байдал дэлгэрсэн ба албан хэрэгт монгол хэлээр харилцана.`,
 	] ],
 	[ "text-generation", [
 		`Намайг Дорж гэдэг. Би`,
