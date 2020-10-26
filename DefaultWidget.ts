@@ -4,7 +4,7 @@ type LanguageCode = string;
 
 type PerLanguageMapping = Map<
 	keyof typeof PipelineType,
-	(Record<string, any> | string)[]
+	(Record<string, string | boolean> | string)[]
 >;
 
 	
