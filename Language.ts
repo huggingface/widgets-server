@@ -56,6 +56,7 @@ export class Language {
 			all.set(code, new Language({ code, ...v }));
 		}
 		for (const code of [
+			"ach",
 			"bcl",
 			"crs",
 			"gaa",
