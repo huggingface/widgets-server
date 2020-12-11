@@ -12,6 +12,7 @@ export class Language {
 	 * Hydrated
 	 */
 	numModels?: number;
+	numDatasets?: number;
 	
 	constructor(o: any) {
 		return Object.assign(this, o);
