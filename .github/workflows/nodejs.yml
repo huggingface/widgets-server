@@ -16,7 +16,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 14
-      - run: sudo npm i -g typescript@3.9.4
+      - run: sudo npm i -g typescript@4.0.3
       - run: node --version
       - run: tsc --version
       - name: Install deps
