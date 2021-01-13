@@ -12,6 +12,7 @@ export enum PipelineType {
 	"text-generation" = "text-generation",
 	"text2text-generation" = "text2text-generation",
 	"fill-mask" = "fill-mask",
+	"conversational" = "conversational",
 	/// audio
 	"text-to-speech" = "text-to-speech",
 	"automatic-speech-recognition" = "automatic-speech-recognition",
