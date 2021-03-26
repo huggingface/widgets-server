@@ -123,6 +123,7 @@ export class Language {
 			"ssp",
 			"vsl",
 			"wal",
+			"fon",
 		]) {
 			/// Subset of valid 639-2 or 639-3 codes that are in Helsinki-NLP models
 			const name = MAPPING_ISO_639_2[code] ?? MAPPING_ISO_639_3[code];
