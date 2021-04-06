@@ -456,11 +456,11 @@ const MAPPING_MN: PerLanguageMapping = new Map([
 	[ "automatic-speech-recognition", [
 		{
 			label: `Common Voice Train Example`,
-			src: `https://github.com/bayartsogt-ya/public-examples/raw/main/asr/common_voice/train/common_voice_mn_18577472.wav`,
+			src: `https://cdn-media.huggingface.co/common_voice/train/common_voice_mn_18577472.wav`,
 		},
 		{
 			label: `Common Voice Test Example`,
-			src: `https://github.com/bayartsogt-ya/public-examples/raw/main/asr/common_voice/test/common_voice_mn_18577346.wav`,
+			src: `https://cdn-media.huggingface.co/common_voice/test/common_voice_mn_18577346.wav`,
 		},
 	] ],
 	[ "text-to-speech", [
