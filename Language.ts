@@ -2,6 +2,7 @@ import { MAPPING_CROSS_ISO } from './iso/Iso639-3166-mapping';
 import { MAPPING_ISO_3166, flagEmoji } from './iso/Iso3166';
 import { MAPPING_ISO_639_1, MAPPING_ISO_639_2 } from './iso/Iso639';
 import { MAPPING_ISO_639_3 } from './iso/iso-639-3';
+import { objectFrom } from './utils';
 
 
 export class Language {
@@ -137,5 +138,13 @@ export class Language {
 			}
 		}
 		return all;
+	}
+	
+	static serializeAll(): string {
+		return JSON.stringify(
+			objectFrom([...this.all().entries()].map(([k, v]) => {
+				return [k, {...v}];
+			}))
+		, null, "\t");
 	}
 }
