@@ -83,7 +83,7 @@ export const MAPPING_ISO_639_1 = {
 		nativeName: 'বাংলা',
 	},
 	bo: {
-		name: 'Tibetan Standard',
+		name: 'Tibetan',
 		nativeName: 'བོད་ཡིག',
 	},
 	br: {
@@ -244,7 +244,7 @@ export const MAPPING_ISO_639_1 = {
 	},
 	hr: {
 		name: 'Croatian',
-		nativeName: 'hrvatski jezik',
+		nativeName: 'Hrvatski',
 	},
 	ht: {
 		name: 'Haitian',
@@ -511,7 +511,7 @@ export const MAPPING_ISO_639_1 = {
 		nativeName: 'ирон æвзаг',
 	},
 	pa: {
-		name: 'Punjabi',
+		name: 'Panjabi',
 		nativeName: 'ਪੰਜਾਬੀ',
 	},
 	pi: {
@@ -583,7 +583,7 @@ export const MAPPING_ISO_639_1 = {
 		nativeName: 'slovenčina',
 	},
 	sl: {
-		name: 'Slovene',
+		name: 'Slovenian',
 		nativeName: 'slovenski jezik',
 	},
 	sm: {
@@ -620,7 +620,7 @@ export const MAPPING_ISO_639_1 = {
 	},
 	sv: {
 		name: 'Swedish',
-		nativeName: 'svenska',
+		nativeName: 'Svenska',
 	},
 	sw: {
 		name: 'Swahili',
