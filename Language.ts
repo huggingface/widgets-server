@@ -143,9 +143,7 @@ export class Language {
 	static serializeAll(): string {
 		return JSON.stringify(
 			objectFrom([...this.all().entries()].map(([k, v]) => {
-				const o = {...v};
-				delete (o as any).code;
-				return [k, o];
+				return [k, {...v}];
 			}))
 		, null, "\t");
 	}
